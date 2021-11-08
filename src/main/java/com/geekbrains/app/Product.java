@@ -11,8 +11,12 @@ public class Product {
         this.cost = cost;
     }
 
+    public int getId() {
+        return id;
+    }
+
     @Override
     public String toString() {
-        return id + " " + title + " " + cost;
+        return id + "   " + title + " " + cost;
     }
 }
